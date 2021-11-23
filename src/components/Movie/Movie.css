@@ -1,0 +1,77 @@
+.movieCard {
+    padding: 1rem;
+    height: 20rem;
+    width: 30rem;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    margin-top: -1px;
+    margin-left: -1px;
+    position: relative;
+    overflow: hidden;
+}
+
+.poster {
+    height: 97%;
+    width: auto;
+}
+
+.wrapper {
+    height: 97%;
+    width: 70%;
+    padding: 1.1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+
+.title {
+    font-size: 1rem;
+    margin-top: 0;
+    margin-bottom: 0.6rem;
+    color: 	#FF0000;
+}
+
+.info {
+    font-size: 0.8rem;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.casts {
+    font-size: 0.9rem;
+    margin-top: 0.8rem;
+    margin-bottom: 0.5rem;
+    color: 	#FF0000;
+}
+
+.actors {
+    font-size: 0.8rem;
+    width: 100%;
+    max-height: 100%;
+    display: flex;
+    flex-flow: row wrap;    
+}
+
+.rating {
+    position: absolute;
+    top: 0;
+    left:0;
+    background-color:#ffa500;
+    font-weight: 400;
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+    transform: rotate(-32deg);
+    left: -12rem;
+}
+
+.bigger {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
